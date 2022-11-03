@@ -18,6 +18,12 @@
 
 }
 
+html, body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
 header {
     padding: 20px;
     display: flex;
@@ -74,7 +80,20 @@ header p {
 
 
 .circles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 62px;
     height: 430px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.circles p {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 23px;
 }
 
 .retangulo {

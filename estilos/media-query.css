@@ -12,17 +12,58 @@
             display: none;
         }
 
+        #imgdestaque {
+            display: none;
+        }
+        
+        .texto-destaque {
+            align-items: center;
+            text-align: center;
+            width: 60vw;
+            height: 60vh;
+        }
+        
+        .texto-destaque p {
+            padding-bottom: 20px;
+        }
+
+
+
+
         
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+        .destaque {
+            display: inline-block;
+            margin: auto;
+
+        }
+
+        #imgdestaque {
+            display: none;
+        }
 
         #burguer {
             display: none;
         }
+
+
+        .texto-destaque {
+            align-items: center;
+            text-align: center;
+            margin: 0px;
+        }
+        
+        .texto-destaque p {
+            padding-bottom: 20px;
+        }
 }
 
-@media screen and (min-width: 1200px) {
+
+
+@media screen and (min-width: 1201px) {
     
         #burguer {
             display: none;
