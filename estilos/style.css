@@ -15,7 +15,19 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
+    overflow-x: hidden;
+}
+body h3 {
+    color: var(--cor05);
+}
 
+body h2 {
+    color: var(--cor05);
+    font-size: 1.5em;
+}
+
+body h1 {
+    color: var(--cor05);
 }
 
 html, body {
@@ -23,7 +35,7 @@ html, body {
     min-width: 100vw;
 }
 
-
+  
 header {
     padding: 20px;
     display: flex;
@@ -100,7 +112,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 140px 130px;
+
     background-color: #D9D9D9;
     gap: 10px;
 }
@@ -109,7 +121,7 @@ header p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding-top: 100px;
     gap: 180px;
     margin: auto;
 }
@@ -149,4 +161,84 @@ header p {
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+
+.vendidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 63px;
+    margin-bottom: 120px;
+}
+
+.vendidos-title {
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: var(--cor05);
+}
+
+.dinheiro {
+    font-weight: bold;
+    color: var(--cor05);
+}
+.unidade {
+    color: #0D0D0D;
+    font-weight: 400;
+}
+
+.primeira-linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    gap: 32px;
+}
+
+.segunda-linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    gap: 32px;
+}
+
+
+ /* Inicio Services */
+
+
+.services {
+    text-align: center;
+    padding-bottom: 100px;
+}
+.services h2 {
+    margin: 40px 0px 100px 0;
+}
+
+.cards h3 {
+    background-color: rgba(211, 211, 211, 0.234);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 68px;
+}
+
+.services p {
+    width: 245px;
+    color: var(--cor01);
+    padding: 0px;
+    text-align: justify;
+    background-color: rgba(211, 211, 211, 0.234);
+}
+
+.cards img {
+    border-radius: 15px 10px 0px 0px;
 }

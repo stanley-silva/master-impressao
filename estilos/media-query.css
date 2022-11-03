@@ -14,8 +14,15 @@
 
         #imgdestaque {
             display: none;
+
         }
         
+        .retangulo {
+            padding: 0px;
+            padding-top: 100px;
+
+        }
+
         .texto-destaque {
             align-items: center;
             text-align: center;
@@ -25,6 +32,43 @@
         
         .texto-destaque p {
             padding-bottom: 20px;
+        }
+
+        .circles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 500px;
+            margin: 100px 0px;
+        }
+
+        /* Inicio da Sessão de mais vendidos */
+
+        .vendidos {
+            display: flex;
+        }
+
+        .primeira-linha {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .segunda-linha {
+
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Final da Sessão de mais vendidos */
+
+        /* Services*/
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
 
@@ -59,6 +103,14 @@
         .texto-destaque p {
             padding-bottom: 20px;
         }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
 }
 
 
@@ -68,6 +120,7 @@
         #burguer {
             display: none;
         }
+        
 
 
 }
