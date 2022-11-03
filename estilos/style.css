@@ -15,7 +15,6 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
-    box-sizing: border-box;
 
 }
 
@@ -26,6 +25,7 @@ header {
     align-items: center;
     gap: 100px;
     justify-content: space-around;
+    box-sizing: border-box;
     
 
 }
@@ -38,6 +38,12 @@ header {
     padding: 0px;
     gap: 37px;
 
+}
+
+#burguer {
+    color: var(--cor05);
+    cursor: pointer;
+    
 }
 
 header a {
@@ -60,15 +66,15 @@ header p {
 }
 
 
-.slider {
-    width: 100%;
+.slider img {
+    width: 100vw;
 }
+
+
 
 
 .circles {
     height: 430px;
-
-    background-color: beige;
 }
 
 .retangulo {
@@ -76,6 +82,7 @@ header p {
     flex-direction: column;
     align-items: flex-start;
     padding: 140px 130px;
+    background-color: #D9D9D9;
     gap: 10px;
 }
 
@@ -84,20 +91,18 @@ header p {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-    gap: 233px;
+    gap: 180px;
+    margin: auto;
 }
 
-#imgdestaque {
-    width: 492px;
-    height: 162px;
-}
+
 
 .texto-destaque {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    width: 455px;
+    width: 350px;
     height: 459px;
     gap: 14px;
     

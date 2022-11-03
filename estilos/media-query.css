@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 400px) and (max-width: 992px) {
+       
+
+        header #menu-header {
+            display: none;
+        }
+
+        header #phone {
+            display: none;
+        }
+
+        
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+        #burguer {
+            display: none;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+    
+        #burguer {
+            display: none;
+        }
+
+
+}
