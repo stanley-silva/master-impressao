@@ -2,7 +2,7 @@
 
 
 @media screen and (min-width: 400px) and (max-width: 992px) {
-       
+    
 
         header #menu-header {
             display: none;
@@ -72,8 +72,11 @@
         }
 
 
-
-
+        #logo-col {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         
 }
 
@@ -109,6 +112,7 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+
 
 
 }

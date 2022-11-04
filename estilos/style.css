@@ -15,7 +15,8 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
-    overflow-x: hidden;
+    box-sizing: border-box;
+
 }
 body h3 {
     color: var(--cor05);
@@ -33,7 +34,9 @@ body h1 {
 html, body {
     min-height: 100vh;
     min-width: 100vw;
+    overflow-x: hidden;
 }
+
 
   
 header {
@@ -44,9 +47,11 @@ header {
     gap: 100px;
     justify-content: space-around;
     box-sizing: border-box;
+    overflow: hidden;
     
 
 }
+
 
 #menu-header {
 
@@ -61,6 +66,7 @@ header {
 #burguer {
     color: var(--cor05);
     cursor: pointer;
+    overflow: hidden;
     
 }
 
@@ -83,6 +89,33 @@ header p {
     align-items: flex-start;
 }
 
+article {
+    padding-top: 50px;
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 50px;
+    background-color: white;
+}
+article p {
+    max-width: 800px;
+    padding: 0 50px;
+
+}
+
+article h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+hr {
+    color: lightgray;
+}
+.sobre {
+    height: 100vh;
+    background-color: var(--cor05);
+
+}
 
 .slider img {
     width: 100vw;
@@ -190,21 +223,16 @@ header p {
 
 .primeira-linha {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    max-width: 1200px;
     padding: 0px;
     text-align: center;
     gap: 32px;
 }
 
-.segunda-linha {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    text-align: center;
-    gap: 32px;
-}
+
 
 
  /* Inicio Services */
@@ -213,6 +241,7 @@ header p {
 .services {
     text-align: center;
     padding-bottom: 100px;
+
 }
 .services h2 {
     margin: 40px 0px 100px 0;
@@ -224,7 +253,6 @@ header p {
 
 .cards {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
@@ -241,4 +269,61 @@ header p {
 
 .cards img {
     border-radius: 15px 10px 0px 0px;
+}
+
+
+footer {
+    background-color: white;
+    padding: 50px 0px;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-col ul {
+    list-style: none;
+}
+.footer-col li {
+    margin: 10px 0;
+
+}
+.footer-col ul li a {
+    text-transform: capitalize;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--cor05);
+    padding-left: 10px;
+}
+
+@media (max-width: 1200px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;  
+        align-content: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-col {
+        width: 100%;
+    } 
 }
