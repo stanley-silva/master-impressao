@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*@import url("reset.css");*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
@@ -39,7 +40,7 @@ html, body {
 
 
   
-header {
+#container {
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -47,7 +48,7 @@ header {
     gap: 100px;
     justify-content: space-around;
     box-sizing: border-box;
-    overflow: hidden;
+
     
 
 }
@@ -76,10 +77,11 @@ header a {
     display: flex;
     gap: 5px;
     align-items: flex-start;
+    transition: all 0.3s;
 }
 
 header a:hover {
-    font-weight: bold;
+    transform: scale(1.1);
 }
 
 header p {
@@ -134,7 +136,10 @@ hr {
     box-sizing: border-box;
     justify-content: center;
 }
-
+.circles img:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+}
 .circles p {
     text-align: center;
     font-weight: bold;
@@ -194,6 +199,12 @@ hr {
     padding: 10px;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+.buttondst:hover {
+    color: var(--cor02);
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .vendidos {
@@ -220,6 +231,17 @@ hr {
     color: #0D0D0D;
     font-weight: 400;
 }
+.vendidos img {
+    border-radius: 10px;
+}
+.vendidos h3 {
+    margin-top: 10px;
+}
+
+.vendidos img:hover {
+    transition: all 0.3s;
+        transform: scale(1.1);
+}
 
 .primeira-linha {
     display: flex;
@@ -234,7 +256,6 @@ hr {
 
 
 
-
  /* Inicio Services */
 
 
@@ -242,6 +263,10 @@ hr {
     text-align: center;
     padding-bottom: 100px;
 
+}
+.services a:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
 }
 .services h2 {
     margin: 40px 0px 100px 0;
@@ -277,6 +302,16 @@ footer {
     padding: 50px 0px;
 }
 
+footer ul li {
+    color: var(--cor01);
+    font-weight: 500;
+}
+footer ul li:hover {
+    color: var(--cor05);
+    padding-left: 10px;
+    transition: 0.4s;
+}
+
 .container-footer {
     max-width: 1400px;
     padding: 0 4%;
@@ -309,10 +344,7 @@ footer {
     transition: all 0.3s ease;
 }
 
-footer a:hover {
-    color: var(--cor05);
-    padding-left: 10px;
-}
+
 
 @media (max-width: 1200px) {
     .footer-col {
