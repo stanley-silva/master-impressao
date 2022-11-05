@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 400px) and (max-width: 992px) {
+@media screen and (max-width: 420px) {
     
 
         header #menu-header {
@@ -16,30 +16,31 @@
             display: none;
 
         }
+
+
         
-        .retangulo {
-            padding: 0px;
-            padding-top: 100px;
-
-        }
-
-        .texto-destaque {
-            align-items: center;
-            text-align: center;
-            width: 60vw;
-            height: 60vh;
-        }
-        
-        .texto-destaque p {
-            padding-bottom: 20px;
-        }
-
         .circles {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            height: 500px;
+            height: auto;
+        }
+
+        .retangulo {
+            padding: 0px;
             margin: 100px 0px;
+
+        }
+
+        .texto-destaque {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .texto-destaque p {
+            padding-bottom: 20px;
         }
 
         /* Inicio da Sessão de mais vendidos */
@@ -77,15 +78,22 @@
             justify-content: center;
             align-items: center;
         }
+
+        #burguer {
+            display: flex;
+        }
         
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (max-width: 820px) {
+
+
 
         .destaque {
-            display: inline-block;
+            display: flex;
             margin: auto;
-
+            max-width: 800px;
+            max-height: 500px;
         }
 
         #imgdestaque {
@@ -96,8 +104,26 @@
             display: none;
         }
 
+        #phone {
+            display: none;
+        }
+        
+    
 
+        .circles {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+        }
+        
+        .destaque {
+            padding: 0px;
+        }
         .texto-destaque {
+            display: flex;
+            justify-content: center;
             align-items: center;
             text-align: center;
             margin: 0px;
@@ -112,6 +138,9 @@
             flex-wrap: wrap;
             justify-content: center;
         }
+        .primeira-linha {
+            margin: 1vw;
+        }
 
 
 
@@ -119,12 +148,16 @@
 
 
 
-@media screen and (min-width: 1201px) {
+@media screen and (max-width: 1200px) {
     
         #burguer {
             display: none;
         }
-        
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+        }
 
 
 }
