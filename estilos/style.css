@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*@import url("reset.css");*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
@@ -69,6 +68,9 @@ html, body {
     cursor: pointer;
     overflow: hidden;
     display: none;
+}
+header {
+    width: 100%;
 }
 
 header a {
@@ -167,9 +169,6 @@ hr {
     gap: 180px;
     margin: auto;
 }
-
-
-
 .texto-destaque {
     display: flex;
     flex-direction: column;
