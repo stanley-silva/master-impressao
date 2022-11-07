@@ -368,7 +368,11 @@ footer ul li:hover {
 
 /* Página Papelaria */
 
-#body-papelaria {
+.body-papelaria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -384,7 +388,7 @@ footer ul li:hover {
 .produtos-ind img {
     margin: auto;
 }
-#body-papelaria a:hover {
+.body-papelaria a:hover {
     color: var(--cor05);
     font-weight: bold;
 }
