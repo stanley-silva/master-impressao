@@ -366,7 +366,7 @@ footer ul li:hover {
 
 
 
-/* Página Papelaria */
+/* Páginas extras */
 
 .body-papelaria {
     display: flex;
@@ -393,7 +393,7 @@ footer ul li:hover {
     font-weight: bold;
 }
 
-
+/* Páginas extras - FIM */
 
 @media (max-width: 1200px) {
     .footer-col {
