@@ -279,8 +279,6 @@ strong {
 
 
  /* Inicio Services */
-
-
 .services {
     text-align: center;
     padding-bottom: 100px;
@@ -317,7 +315,7 @@ strong {
 .cards img {
     border-radius: 15px 10px 0px 0px;
 }
-
+/* Sessão Services - FIM */
 
 footer {
     background-color: lightgray;
@@ -368,7 +366,7 @@ footer ul li:hover {
 
 
 
-/* Papelaria */
+/* Página Papelaria */
 
 #body-papelaria {
     text-align: center;
