@@ -9,6 +9,7 @@
     --cor05: #037F8C;
 }
 
+/* Configurações gerais */
 * {
     margin: 0px;
     padding: 0px;
@@ -43,7 +44,8 @@ html, body {
 }
 
 
-  
+/* Header */ 
+
 #container {
     padding: 20px;
     display: flex;
@@ -93,6 +95,9 @@ header p {
     align-items: flex-start;
 }
 
+/* Fim do Header */
+
+/* Configuração geral de artigos */
 article {
     padding-top: 20px;
     margin-top: 0px;
@@ -120,12 +125,14 @@ article h1 {
     background-color: var(--cor05);
 
 }
+/* Fim de artigos */
 
+/* Inicio dos Sliders */
 .slider img {
     width: 100vw;
 }
 
-
+/* Sessão de círculos - INICIO */
 #circulos {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -158,6 +165,9 @@ strong {
     padding-top: 23px;
 }
 
+/* Sessão de círculos - FIM */
+
+/*Sessão Destaque - INICIO */
 .retangulo {
     display: flex;
     flex-direction: column;
@@ -215,7 +225,10 @@ strong {
     transition: 0.3s;
     transform: scale(1.1);
 }
+/*Sessão Destaque - FIM */
 
+
+/*Sessão Vendidos - INICIO */
 .vendidos {
     display: flex;
     flex-direction: column;
@@ -262,7 +275,7 @@ strong {
     text-align: center;
     gap: 32px;
 }
-
+/*Sessão Destaque - FIM */
 
 
  /* Inicio Services */
