@@ -52,14 +52,10 @@ html, body {
     gap: 100px;
     justify-content: space-around;
     box-sizing: border-box;
-
-    
-
 }
 
 
 #menu-header {
-
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -98,12 +94,13 @@ header p {
 }
 
 article {
-    padding-top: 50px;
+    padding-top: 20px;
+    margin-top: 0px;
     display: block;
     max-width: 800px;
     margin: auto;
     padding-bottom: 50px;
-    background-color: rgb(234, 234, 234);
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.202);
 }
 article p {
     max-width: 800px;
@@ -116,10 +113,8 @@ article h1 {
     text-align: center;
 }
 
-hr {
-    height: 2px;
-    background-color: #037F8C;
-}
+
+
 .sobre {
     height: 100vh;
     background-color: var(--cor05);
@@ -309,7 +304,7 @@ strong {
 
 
 footer {
-    background-color: white;
+    background-color: lightgray;
     padding: 50px 0px;
 }
 
@@ -353,6 +348,31 @@ footer ul li:hover {
     font-weight: 300;
     display: block;
     transition: all 0.3s ease;
+}
+
+
+
+/* Papelaria */
+
+#body-papelaria {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 50px 50px;
+    gap: 40px;
+}
+
+.produtos-ind img {
+    margin: auto;
+}
+#body-papelaria a:hover {
+    color: var(--cor05);
+    font-weight: bold;
 }
 
 
