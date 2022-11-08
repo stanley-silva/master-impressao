@@ -164,16 +164,19 @@
             display: flex;
             flex-wrap: wrap;
         }
+        #circulos {
+            padding: 0px;
+        }
         
 
 }
 
 @media screen and (min-width:1201px) {
-    .slider img {
+   /* .slider img {
         display: block;
         margin: auto;
         max-width: 1200px;
-    }
+    }*/
     #container {
         justify-content: center;
         align-items: center;
