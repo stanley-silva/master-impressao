@@ -80,8 +80,8 @@ header a {
     transition: all 0.3s;
 }
 
-header a:hover {
-    transform: scale(1.1);
+#menu-header a:hover {
+    text-decoration: underline;
 }
 
 header p {
@@ -272,7 +272,7 @@ strong {
 
 .vendidos img:hover {
     transition: all 0.3s;
-        transform: scale(1.1);
+    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0);
 }
 
 .primeira-linha {
