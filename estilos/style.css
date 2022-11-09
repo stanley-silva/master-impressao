@@ -17,7 +17,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
     box-sizing: border-box;
-
+    overflow-x: hidden;
 }
 
 body h3 {
@@ -127,7 +127,7 @@ article h1 {
     padding: 20px;
 }
 #botao:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: .3s;
 }
 
