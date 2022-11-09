@@ -189,5 +189,8 @@
         margin: auto;
         max-width: 1200px;
     }
+    #circulos {
+        margin: 0;
+    }
     
 }
