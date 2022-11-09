@@ -318,7 +318,7 @@ strong {
 .services p {
     width: 245px;
     color: var(--cor01);
-    padding: 0px;
+    padding: 0px 8px;
     text-align: justify;
     background-color: rgba(211, 211, 211, 0.234);
 }
