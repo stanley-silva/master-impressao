@@ -33,13 +33,19 @@
     
     <main>
         <div id="botao"><a class="whatsappbutton" href="https://wa.me/5592992869855?text=Olá! Vim do site da gráfica Master Representações e gostaria de conversar sobre seus serviços!" target="_blank"><img src="Icons/whatsapp01.png" alt="Whatsappbutton"></a></div>
-        <section>
+        <section class="container-slider">
             <!--Slider-->
-                <picture class="slider">
-                    <source media="(max-width:750px )" srcset="banners/atendimento_facilitado_P.png" type="image/png">
-                    <source media="(max-width: 1050px )" srcset="banners/atendimento_facilitado_M.png" type="image/png">
-                    <img src="banners/atendimento_facilitado_G.png" alt="slider">
-                </picture>
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="slide-1" src="banners/atendimento_facilitado_G.png" alt="Banner de atendimento facilitado">
+
+                       <img id="slide-2" src="banners/empresa-g.png" alt="Banner de empresa G">
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slide-1"></a>
+                        <a href="#slide-2"></a>
+                    </div>
+                </div>
                 
         </section>
             <!--Inicio - Circles-->
