@@ -271,6 +271,7 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 0px;
     gap: 63px;
     margin-bottom: 120px;
@@ -285,22 +286,26 @@ strong {
 
 .dinheiro {
     font-weight: bold;
-    color: var(--cor05);
+    color: white;
+    background-color: var(--cor03);
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 2rem;
+    max-width: 180px;
 }
-.unidade {
-    color: #0D0D0D;
-    font-weight: 400;
-}
+
 .vendidos img {
     border-radius: 10px;
+    margin-top: 5rem;
 }
 .vendidos h3 {
     margin-top: 10px;
+    margin-bottom: 1rem;
 }
 
-.vendidos img:hover {
+.vendidos p:hover {
     transition: all 0.3s;
-    box-shadow: 0rem 0rem 1rem rgb(0, 0, 0);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
 }
 
 .primeira-linha {
@@ -313,6 +318,14 @@ strong {
     text-align: center;
     gap: 32px;
 }
+.cards-vendidos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
 /*Sessão Destaque - FIM */
 
 
