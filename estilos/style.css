@@ -41,6 +41,11 @@ html, body {
     scroll-behavior: smooth;
 }
 
+body {
+    background-image: url(../BG_bolinha.png);
+    background-size: cover;
+}
+
 /* Header */ 
 
 #container {
@@ -122,6 +127,7 @@ article {
     display: block;
     max-width: 800px;
     margin: auto;
+    background-color: white;
     padding-bottom: 50px;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.202);
 }
@@ -129,6 +135,12 @@ article p {
     max-width: 800px;
     padding: 15px 50px;
 
+}
+.body-papelaria h2 {
+    margin-top: 50px;
+}
+.body-papelaria img {
+    border-radius: 32px;
 }
 
 article h1 {
@@ -192,7 +204,7 @@ strong {
     height: 20rem;
     box-sizing: border-box;
     justify-content: center;
-    background-color: white;
+
 }
 .circles img:hover {
     transition: all 0.3s;
@@ -377,7 +389,7 @@ strong {
 /* Sessão Services - FIM */
 
 footer {
-    background-color: lightgray;
+    background-color: white;
     padding: 50px 0px;
 }
 
@@ -439,14 +451,59 @@ footer ul li:hover {
 .produtos {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 700px;
     margin: 50px 50px;
     gap: 40px;
 }
 
-.produtos-ind img {
-    margin: auto;
+.produtos-ind{
+    display: flex;
+    align-items: center;
 }
+
+.produtos-ind p {
+    text-align: start;
+    margin-left: 20px;
+}
+.produtos-ind02 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;  
+}
+.produtos-ind02 p {
+    text-align: end;
+    margin-right: 20px;
+}
+.produtos-ind03 {
+    display: flex;
+    align-items: center;
+}
+.produtos-ind03 p {
+    text-align: start;
+    margin-left: 20px;
+}
+.produtos-ind04 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;  
+}
+.produtos-ind04 p {
+    text-align: end;
+    margin-right: 20px;
+}
+
+.entre-em-contato p {
+    font-weight: 700;
+    max-width: 600px;
+    font-size: 2em;
+    color: var(--cor05);
+}
+.entre-em-contato a {
+    color: var(--cor03);
+}
+
+
+
 .body-papelaria a:hover {
     color: var(--cor05);
     font-weight: bold;
@@ -468,3 +525,6 @@ footer ul li:hover {
     } 
 }
 
+@media screen and (max-width:490px) {
+
+}
