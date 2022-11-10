@@ -23,11 +23,13 @@
                         <nav id="menu-header">
                 <a href="index.html"> <img src="Icons/home-icon.svg" alt="home icon"> Home</a>
                 <a href="#services01"><img src="Icons/services.svg" alt="services icon">Serviços</a>
-                <a href="sobre.html"><img src="Icons/about.svg" alt="about icon">Sobre</a>
+                <a href="sobre.html"><img src="Icons/about.svg" alt="about icon">Quem somos?</a>
                         </nav>
                 <!--Fim do Menu Header-->
                         <div id="phone">
-                <p><img  src="Icons/phone01.svg" alt="phone icon"> 99286-9855</p>
+                <a href="https://wa.me/5592992869855?text=Olá! Vim do site da gráfica Master Representações e gostaria de conversar sobre seus serviços!">
+                    <p><img  src="Icons/phone01.png" alt="phone icon"> Entre em contato</p>
+                </a>
                         </div>
     </header>
     
@@ -35,21 +37,18 @@
         <div id="botao"><a class="whatsappbutton" href="https://wa.me/5592992869855?text=Olá! Vim do site da gráfica Master Representações e gostaria de conversar sobre seus serviços!" target="_blank"><img src="Icons/whatsapp01.png" alt="Whatsappbutton"></a></div>
         <section class="container-slider">
             <!--Slider-->
-                <div class="slider-wrapper">
-                    <div class="slider">
-                        <img id="slide-1" src="banners/atendimento_facilitado_G.png" alt="Banner de atendimento facilitado">
+                    <picture class="slider">
+                        <source media="(max-width:470px)" srcset="banners/atendimento_facilitado_P.png" type="image/png">
+                        <source media="(max-width: 880px)" srcset="banners/atendimento_facilitado_M.png" type="image/png">
+                        <img src="banners/atendimento_facilitado_G.png" alt="Banner de atendimento facilitado">
 
-                       <img id="slide-2" src="banners/empresa-g.png" alt="Banner de empresa G">
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                    </div>
-                </div>
+                    </picture>
+
                 
         </section>
             <!--Inicio - Circles-->
         <div id="circulos">
+            <h2>Destaques</h2>
             <section class="circles">
                 <div id="papelaria">
                    <a href="papelaria.html"><img src="circles/papelaria.png" alt="papelaria"></a>
@@ -86,7 +85,7 @@
                         mantendo-os sempre atualizados.</p>
                     <a href="sobre.html"><button class="buttondst">SAIBA MAIS</button></a>
                 </div>
-                <img id="imgdestaque" src="Icons/logo.svg" alt="logo-destaque">
+                <img id="imgdestaque" src="Icons/logo-destaque.png" alt="logo-destaque">
             </div>
         </section>
             <!--Destaque - FIM -->

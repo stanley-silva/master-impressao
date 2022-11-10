@@ -25,7 +25,8 @@ body h3 {
 
 body h2 {
     color: var(--cor05);
-    font-size: 1.5em;
+    font-size: 2em;
+    text-align: center;
 }
 
 body h1 {
@@ -38,7 +39,6 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
 
 /* Header */ 
 
@@ -68,6 +68,7 @@ html, body {
     display: none;
 }
 header {
+    background-color: white;
     width: 100%;
 }
 
@@ -89,6 +90,26 @@ header p {
     display: flex;
     gap: 5px;
     align-items: flex-start;
+}
+
+#phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    background-color: var(--cor03);
+    padding: 0.7rem;
+    border-radius: 1.2rem;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.492);
+}
+#phone p {
+    color: white;
+    text-align: center;
+}
+
+#phone:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 /* Fim do Header */
@@ -138,45 +159,8 @@ article h1 {
 /* Fim de artigos */
 
 /* Inicio dos Sliders */
-
-.slider-wrapper {
-    position: relative;
-    max-width: 100rem;
-    margin: auto;
-}
-.slider {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    border-radius: 0.5rem ;
-    overflow-x: hidden;
-}
-
 .slider img {
-    scroll-snap-align: start;
     width: 100%;
-    object-fit: cover;
-}
-.slider-nav {
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-.slider-nav a:hover {
-    opacity: 1;
 }
 
 /* Sessão de círculos - INICIO */
@@ -190,14 +174,21 @@ article h1 {
 strong {
     color: var(--cor03);
 }
+#circulos img {
+    width: 8rem;
+}
+#circulos h2 {
+    margin-bottom: 2rem;
+}
+
 
 .circles {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding: 0px;
-    gap: 62px;
-    height: 430px;
+    gap: 6rem;
+    height: 20rem;
     box-sizing: border-box;
     justify-content: center;
     background-color: white;
@@ -219,16 +210,15 @@ strong {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
-    background-color: #D9D9D9;
+    background-color: var(--cor03);
     gap: 10px;
+    padding: 100px 0px;
 }
 
 .destaque {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 100px;
     gap: 180px;
     margin: auto;
 }
@@ -238,19 +228,20 @@ strong {
     align-items: flex-start;
     padding: 0px;
     width: 350px;
-    height: 459px;
+    height: auto;
+    color: white;
     gap: 14px;
     
 }
 
 .texto-destaque > h1 {
-    color: var(--cor05);
+    color: white;
     font-size: 2.5em;
     font-weight: 700;
 }
 
 .texto-destaque > h2 {
-    color: var(--cor05);
+    color: white;
     font-weight: 600;
 }
 
@@ -259,8 +250,8 @@ strong {
 }
 
 .buttondst {
-    background-color: var(--cor03);
-    color: white;
+    background-color: white;
+    color: var(--cor03);
     font-weight: bold;
     padding: 10px;
     border-radius: 10px;
@@ -288,7 +279,7 @@ strong {
 .vendidos-title {
     padding-top: 80px;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
     color: var(--cor05);
 }
 
